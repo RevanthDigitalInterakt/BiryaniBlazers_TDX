@@ -4,7 +4,6 @@
     <description>WHAT: What this particular QBrix does
 WHO: Kevin Akermanis
 WHEN: Nov 2021</description>
-    <externalId>false</externalId>
     <fieldManageability>DeveloperControlled</fieldManageability>
     <label>Description</label>
     <length>32768</length>

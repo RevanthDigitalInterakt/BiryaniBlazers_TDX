@@ -18,6 +18,7 @@
             </value>
         </inputParameters>
         <nameSegment>RFMMetrics_V2</nameSegment>
+        <offset>0</offset>
         <outputParameters>
             <assignToReference>RFMResponseMetrics</assignToReference>
             <name>output</name>

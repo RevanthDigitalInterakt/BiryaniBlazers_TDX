@@ -1,0 +1,14 @@
+{
+  "required" : [ "noOfDays" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "noOfDays" : {
+      "title" : "noOfDays",
+      "description" : "If the input is missing, prompt the user to enter a lookback sales period to proceed with the analysis.",
+      "lightning:type" : "lightning__numberType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

@@ -1,0 +1,19 @@
+{
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "RFMResponseMetrics" : {
+      "title" : "RFMResponseMetrics",
+      "description" : "Once the RFM analysis flow completes, display the following message to the user: RFM analysis for the specified sales period is now complete. Then prompt the user with: \"Would you like to confirm the results by retrieving a few sample records from predefined categories such as 1) Champions 2) Lost Loyalists 3) Steady Spenders and more",
+      "maxItems" : 2000,
+      "items" : {
+        "lightning:type" : "@apexClassType/c__RFMResponseMetrics?isAuraEnabled=true"
+      },
+      "lightning:type" : "lightning__listType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : true,
+      "copilotAction:isUsedByPlanner" : true,
+      "copilotAction:useHydratedPrompt" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

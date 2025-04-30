@@ -4,7 +4,6 @@
     <description>WHAT: URL to QBrix documentation which could include installation, configuration or general QBrix information
 WHO: Kevin Akermanis
 WHEN: Nov 2021</description>
-    <externalId>false</externalId>
     <fieldManageability>DeveloperControlled</fieldManageability>
     <label>Documentation Link</label>
     <required>true</required>

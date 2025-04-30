@@ -15,6 +15,7 @@
             </value>
         </inputParameters>
         <nameSegment>RFMMetrics</nameSegment>
+        <offset>0</offset>
         <outputParameters>
             <assignToReference>rfmoutput</assignToReference>
             <name>output</name>

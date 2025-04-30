@@ -1,0 +1,15 @@
+{
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "statusMessage" : {
+      "title" : "statusMessage",
+      "description" : "Once the RFM analysis flow completes, display the following message to the user:\nRFM analysis for the specified(replace with actual specified period) sales period is now complete.\nThen prompt the user with:\n\"Would you like to confirm the results by retrieving a few sample records from predefined categories such as\n1) Champions \n2) Lost Loyalists\n3) Steady Spenders and more",
+      "lightning:type" : "lightning__richTextType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : true,
+      "copilotAction:isUsedByPlanner" : true,
+      "copilotAction:useHydratedPrompt" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

@@ -1,0 +1,19 @@
+{
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "catoutput" : {
+      "title" : "catoutput",
+      "description" : "Once the flow completes, display the following message to the user: Here are Some RFM Categories You should Focus on  based on their Size and Strategies as to how we can improve ROI. Then format the output as \n\nRFM Category --> Count Fetched (Grounded in Flow Data)\nWhy Target,How it helps ROI (Ungrounded but makes it better)\n\nfrom the Knowledge Article 'RFM_Segments_Strategy' for the given Categories",
+      "maxItems" : 2000,
+      "items" : {
+        "lightning:type" : "@apexClassType/c__RFMCatCountOutput?isAuraEnabled=true"
+      },
+      "lightning:type" : "lightning__listType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : true,
+      "copilotAction:isUsedByPlanner" : true,
+      "copilotAction:useHydratedPrompt" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

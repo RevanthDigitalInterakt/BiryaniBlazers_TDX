@@ -1,0 +1,19 @@
+{
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "rfmoutput" : {
+      "title" : "rfmoutput",
+      "description" : "from the output given display data as mentioned in action instructions",
+      "maxItems" : 2000,
+      "items" : {
+        "lightning:type" : "@apexClassType/c__RFMResponseMetrics?isAuraEnabled=true"
+      },
+      "lightning:type" : "lightning__listType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : true,
+      "copilotAction:isUsedByPlanner" : true,
+      "copilotAction:useHydratedPrompt" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

@@ -16,5 +16,9 @@
     <members>*</members>
     <name>Flow</name>
   </types>
-  <version>58.0</version>
+  <types>
+    <members>*</members>
+    <name>GenAiFunction</name>
+  </types>
+  <version>62.0</version>
 </Package>

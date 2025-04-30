@@ -15,6 +15,7 @@
             </value>
         </inputParameters>
         <nameSegment>UniFetchLink</nameSegment>
+        <offset>0</offset>
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </actionCalls>
     <apiVersion>63.0</apiVersion>

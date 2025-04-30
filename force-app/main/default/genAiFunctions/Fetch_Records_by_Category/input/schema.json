@@ -1,0 +1,14 @@
+{
+  "required" : [ "category" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "category" : {
+      "title" : "category",
+      "description" : "If the input is missing, prompt the user to enter a category to proceed with fetching records.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

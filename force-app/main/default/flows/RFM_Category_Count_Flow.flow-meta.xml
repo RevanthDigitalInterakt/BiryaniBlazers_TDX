@@ -9,6 +9,7 @@
         <actionType>apex</actionType>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
         <nameSegment>RFMCategoryCount</nameSegment>
+        <offset>0</offset>
         <outputParameters>
             <assignToReference>CategoryOutput</assignToReference>
             <name>output</name>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiFunction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Invoke the flow when ucser requests to fetch some records by category make sure to take category name from user prompt make sure to align the format of output by interpretting and rephrasing For example in below manner Record 1: Uniid: fc7d4df61c192f4897403497f27d10 RFM_Combined_Score__c: 333 RFM_Category__c: Champions Record 2: Uniid: bb20cc3dd11de8a94b1d97e78d74f6 RFM_Combined_Score__c: 333 RFM_Category__c: Champions Record 3: Uniid: 30210d300c232be1c189ce4eb545e2351 RFM_Combined_Score__c: 333 RFM_Category__c: Champions Record 4: Uniid: 48126838b6323a355f918d36fb16d043 RFM_Combined_Score__c: 333 RFM_Category__c: Champions Record 5: Uniid: 79c52900d18345cea6b3e75d141f7ae75 RFM_Combined_Score__c: 333 RFM_Category__c: Champions</description>
+    <invocationTarget>RFMMetricsv1</invocationTarget>
+    <invocationTargetType>flow</invocationTargetType>
+    <isConfirmationRequired>false</isConfirmationRequired>
+    <masterLabel>RFMMetricsv2</masterLabel>
+</GenAiFunction>

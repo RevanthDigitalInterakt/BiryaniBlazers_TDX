@@ -1,0 +1,15 @@
+{
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "StatusMessage" : {
+      "title" : "StatusMessage",
+      "description" : "Post Analysis when response is recieved Format the response to list customer categories in a numbered format for better readability. Example: 'The RFM analysis for the last 30 days is complete! Would you like to see a sample of customers from categories like 1) Champions 2) Lost Customers 3) Inactive Customers and more...Post RFM analysis when output is recieved",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : true,
+      "copilotAction:isUsedByPlanner" : true,
+      "copilotAction:useHydratedPrompt" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

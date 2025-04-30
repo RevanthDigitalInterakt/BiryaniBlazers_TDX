@@ -15,6 +15,7 @@
             </value>
         </inputParameters>
         <nameSegment>RFMCatCount</nameSegment>
+        <offset>0</offset>
         <outputParameters>
             <assignToReference>catoutput</assignToReference>
             <name>output</name>

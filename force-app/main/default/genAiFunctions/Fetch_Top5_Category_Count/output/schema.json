@@ -1,0 +1,19 @@
+{
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "catoutput" : {
+      "title" : "catoutput",
+      "description" : "Make the Output format as instricted during the instrcution phase",
+      "maxItems" : 2000,
+      "items" : {
+        "lightning:type" : "@apexClassType/c__RFMCatCountOutput?isAuraEnabled=true"
+      },
+      "lightning:type" : "lightning__listType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : true,
+      "copilotAction:isUsedByPlanner" : true,
+      "copilotAction:useHydratedPrompt" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

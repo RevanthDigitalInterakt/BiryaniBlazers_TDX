@@ -1,0 +1,14 @@
+{
+  "required" : [ "Category" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "Category" : {
+      "title" : "Category",
+      "description" : "If the input is missing, prompt the user to enter a lookback sales period to proceed with the analysis.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

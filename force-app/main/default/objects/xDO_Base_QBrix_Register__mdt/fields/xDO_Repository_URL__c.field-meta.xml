@@ -4,7 +4,6 @@
     <description>WHAT: Link to the Github/Source Control repository for this QBrix
 WHO: Kevin Akermanis
 WHEN: Nov 2021</description>
-    <externalId>false</externalId>
     <fieldManageability>DeveloperControlled</fieldManageability>
     <label>Repository URL</label>
     <required>true</required>

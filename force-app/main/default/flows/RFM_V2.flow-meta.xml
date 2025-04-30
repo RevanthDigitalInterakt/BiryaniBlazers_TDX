@@ -15,6 +15,7 @@
             </value>
         </inputParameters>
         <nameSegment>RFM_UnifiedLinkFetch</nameSegment>
+        <offset>0</offset>
         <outputParameters>
             <assignToReference>statusMessage</assignToReference>
             <name>statusMessage</name>

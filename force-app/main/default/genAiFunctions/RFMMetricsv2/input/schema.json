@@ -1,0 +1,14 @@
+{
+  "required" : [ "category" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "category" : {
+      "title" : "category",
+      "description" : "Please make sure to take Category name from user prompt",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

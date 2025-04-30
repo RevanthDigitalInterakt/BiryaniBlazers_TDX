@@ -1,0 +1,14 @@
+{
+  "required" : [ "var" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "var" : {
+      "title" : "var",
+      "description" : "If User Doesnt Provide Input Default it to RFM",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

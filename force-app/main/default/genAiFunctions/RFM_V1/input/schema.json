@@ -1,0 +1,14 @@
+{
+  "required" : [ "noOfDays" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "noOfDays" : {
+      "title" : "noOfDays",
+      "description" : "This Parameter should be interpreted form user prompt if user asks for 3 months then it should automatically be understood as 90 days",
+      "lightning:type" : "lightning__numberType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

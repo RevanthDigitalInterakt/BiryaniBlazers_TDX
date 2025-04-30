@@ -5,7 +5,6 @@
     <description>WHAT: If true, this will allow all process automation that references this custom setting to be considered during normal transactions in Salesforce
 
 WHO: Built by Jory Dean, December 2022</description>
-    <externalId>false</externalId>
     <inlineHelpText>If true, this will allow all process automation that references this custom setting to be considered during normal transactions in Salesforce</inlineHelpText>
     <label>Process Automation Status</label>
     <trackTrending>false</trackTrending>
